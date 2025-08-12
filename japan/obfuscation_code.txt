@@ -1,0 +1,12 @@
+the obfuscation method randomizes data in each record
+
+It is NOT reversible even if you knew the algorithm.
+
+It keeps things such that mortality analysis is not impacted and shifts data minimally.
+
+The full code is stored in a private bucket in my s3 server which I typically access via Cloudberry Explorer.
+
+The private bucket is "confidential" with subdirectory "japan" This holds the original data and the obfuscation algorithm and python code that runs the obfuscation.
+
+
+
